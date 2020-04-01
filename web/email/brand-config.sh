@@ -1,7 +1,7 @@
-name="MoxieMeet"
-domain="moxiemeet.com"
-base_url="https://connect.moxiemeet.com"
-email="support@moxiemeet.com"
+name="MaestroConference Video"
+domain="maestroconference.com"
+base_url="https://video.maestroconference.com"
+email="videosupport@maestroconference.com"
 
 background="#FFFFFF"
 accent="#0d47a1"
