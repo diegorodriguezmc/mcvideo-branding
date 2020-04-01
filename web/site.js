@@ -1,30 +1,30 @@
 var config = {};
 
-config.name = 'MoxieMeet';
-config.domain="moxiemeet.com"
+config.name = 'MaestroConference Video';
+config.domain="maestroconference.com"
 
-config.connectSiteUrl="https://connect.moxiemeet.com"
-config.mainSiteUrl = 'https://moxiemeet.com';
-config.termsUrl = 'https://moxiemeet.com/terms';
-config.privacyUrl = 'https://moxiemeet.com/privacy';
-config.supportUrl = 'https://moxiemeet.com/support';
-config.faqUrl = 'https://moxiemeet.com/faq';
+config.connectSiteUrl="https://video.maestroconference.com"
+config.mainSiteUrl = 'https://maestroconference.com';
+config.termsUrl = 'https://maestroconference.com/terms';
+config.privacyUrl = 'https://maestroconference.com/privacy-policy';
+config.supportUrl = 'https://support.maestroconference.com';
+config.faqUrl = 'https://maestroconference.com/support/knowledgebase';
 config.techReportUrl = null;
 
-config.twitterUsername = 'ThisOldPlant';
+config.twitterUsername = 'MaestroConf';
 
 config.email = {};
 config.email.event = {};
-config.email.event.register = 'mm-event-register';
-config.email.event.registerInvite = 'mm-event-register-invite';
-config.email.event.registerMessage = 'mm-event-register-message';
-config.email.event.facilitatorInvite = 'mm-event-facilitator-invite';
+config.email.event.register = 'mcvideo-event-register';
+config.email.event.registerInvite = 'mcvideo-event-register-invite';
+config.email.event.registerMessage = 'mcvideo-event-register-message';
+config.email.event.facilitatorInvite = 'mcvideo-event-facilitator-invite';
 config.email.templateVariables = {};
 config.email.templateVariables.name = config.name;
 config.email.templateVariables.domain = config.domain;
 config.email.templateVariables.mainSiteUrl = config.mainSiteUrl;
 config.email.templateVariables.connectSiteUrl = config.connectSiteUrl;
-config.email.templateVariables.supportEmail = 'support@moxiemeet.com'
+config.email.templateVariables.supportEmail = 'videosupport@maestroconference.com'
 config.email.templateVariables.backgroundColor = '#FFFFFF';
 config.email.templateVariables.accentColor = '#0d47a1';
 config.email.templateVariables.accentColorDark = '#0b3f8e';
